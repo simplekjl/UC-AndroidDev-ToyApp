@@ -24,7 +24,13 @@
         android:title="@string/pref_show_treble_label" />
 
     <!-- TODO (1) Add and EditTextPreference with all of the appropriate strings stored in strings.xml.
+
         It should have a key, default value of 1 and title -->
+    <EditTextPreference
+        android:defaultValue="@string/pref_size_shape_default"
+        android:title="@string/pref_shape_size_label"
+        android:key="@string/pref_size_shape_key"
+        />
 
     <ListPreference
         android:defaultValue="@string/pref_color_red_value"
