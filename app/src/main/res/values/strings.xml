@@ -25,4 +25,8 @@
 
     <!-- Value in SharedPreferences for green color option -->
     <string name="pref_color_green_value" translatable="false">green</string>
+    <string name="pref_show_mid_range_key">show_mid</string>
+    <string name="pref_show_triangle_key">show_triangle</string>
+    <string name="pref_show_triangle_label">Show Triangle</string>
+    <string name="pref_show_mid_range_label">Show Midrange</string>
 </resources>
