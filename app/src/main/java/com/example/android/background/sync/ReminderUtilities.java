@@ -70,7 +70,7 @@ public class ReminderUtilities {
                 .setTrigger(Trigger.executionWindow(
                         REMINDER_INTERVAL_SECONDS,
                         REMINDER_INTERVAL_SECONDS + SYNC_FLEXTIME_SECONDS))
-                .setRecurring(true)
+                .setReplaceCurrent(true)
                 .build();
         dispatcher.schedule(constraintReminderJob);
         sInitialized = true;

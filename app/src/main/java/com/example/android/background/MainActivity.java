@@ -53,7 +53,6 @@ public class MainActivity extends AppCompatActivity implements
         updateWaterCount();
         updateChargingReminderCount();
 
-        // TODO (23) Schedule the charging reminder
         ReminderUtilities.scheduleChargingReminder(this);
 
         /** Setup the shared preference listener **/
